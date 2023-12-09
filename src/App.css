@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Open+Sans:wght@300&family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form ul li {
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.f:hover {
+  color: blue;
+  transition: all .3s linear;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.t:hover {
+  color: rgb(10, 175, 240);
+  transition: all .3s linear;
+}
+
+.i:hover {
+  color: red;
+  transition: all .3s linear;
+}
+
+.l:hover {
+  color: blue;
+  transition: all .3s linear;
+}
+
+.menu_items li a {
+  color: aliceblue;
+}
+
+.menu_items {
+  font-size: .8rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.active:hover {
+  color: red;
+  transition: all .3s linear;
+}
+
+.navbar_setting {
+  background-color: #171819;
+  color: aliceblue;
+  
+}
+
+.homePage_style {
+  background-position: 40%;
+  width: 100%;
+  height: 750px;
+  background-image: url('../public/images/hero-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: .993;
+  background-clip: content-box;
+ box-shadow: inset 10rem 3rem 4rem 5rem black;
+}
+
+.cover_page {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  align-self: center;
 }
 
-.App-link {
-  color: #61dafb;
+.gym_membership_detail {
+  background-color: #171819;
+  color: aliceblue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.premium_left {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.about_left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.classes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  align-self: center;
+}
+
+.error_image {
+  width: 100%;
+  height: 80vh;
+  object-fit: contain;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer {
+  margin: auto;
+
 }
